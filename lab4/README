@@ -1,0 +1,98 @@
+# Cache Mapping Algorithms Simulator
+
+## 📌 Description
+
+This is a Java console application that simulates three cache memory mapping techniques:
+- Direct Mapping
+- Fully Associative Mapping
+- Set-Associative Mapping
+
+The program allows users to input cache size, memory block addresses, and observe how these blocks are mapped into the cache. It also provides statistics such as hits, misses, hit ratio, and time taken.
+
+---
+
+## ⚙️ Features
+
+- Simulates 3 cache mapping algorithms
+- Calculates and displays:
+  - Number of cache hits and misses
+  - Hit ratio
+  - Time taken for each algorithm
+- Interactive input via console
+- Clear explanation of each method's result
+
+---
+
+## 🚀 How to Run
+
+1. Compile the Java program:
+   javac CacheMappingSimulator.java
+
+Run the program:
+java CacheMappingSimulator
+
+Follow the console prompts:
+
+Enter cache size
+
+Enter memory block addresses
+
+💻 Requirements
+Java 8 or higher
+Command-line interface (CLI)
+
+
+📈 Future Improvements
+Add GUI interface
+Export results to CSV or Excel
+Add replacement policies (LRU, FIFO)
+Visualization of cache behavior
+
+👤 Author
+Dana Zhappar
+2025
+No license (Educational use only)
+
+
+🇷🇺 Симулятор алгоритмов отображения кэша
+📌 Описание
+Это консольное приложение на Java, которое симулирует три способа отображения памяти в кэш:
+
+Прямое отображение
+
+Полностью ассоциативное отображение
+
+Множественно-ассоциативное отображение
+
+Программа позволяет ввести размер кэша и последовательность блоков памяти, а затем показывает, как они будут размещаться в кэше, а также рассчитывает количество попаданий, промахов и время выполнения.
+
+⚙️ Возможности
+3 алгоритма отображения кэша
+
+Расчёт:
+
+Попаданий и промахов
+
+Коэффициента попадания
+
+Времени выполнения
+
+Работа через консоль
+
+🚀 Как запустить
+Скомпилируйте программу:
+javac CacheMappingSimulator.java
+Запустите: java CacheMappingSimulator
+
+Следуйте инструкциям в консоли:
+Введите размер кэша
+Введите адреса блоков памяти
+
+💻 Требования
+Java 8+
+Терминал (CLI)
+
+👤 Автор
+Дана Жаппар 
+2025
+Без лицензии (только для учебных целей)
